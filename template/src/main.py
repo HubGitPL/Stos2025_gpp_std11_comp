@@ -39,7 +39,7 @@ def compile() -> CompilerOutputSchema:
         "-fdiagnostics-color=always", 
         "-I", lib_path,
         "-I", src_path,
-        "-std=c++17",
+        "-std=c++11",
         "-o", compiled_program_path
     ] + all_src_files
     # * ========================================================================
